@@ -1,0 +1,157 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"734 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 734:     struct {
+[s S42 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S42 . PS PSA T0SE T0CS INTEDG nGPPU ]
+"742
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 742:     struct {
+[s S43 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S43 . PS0 PS1 PS2 ]
+"733
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 733: typedef union {
+[u S41 `S42 1 `S43 1 ]
+[n S41 . . . ]
+"748
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 748: extern volatile OPTION_REGbits_t OPTION_REGbits __attribute__((address(0x081)));
+[v _OPTION_REGbits `VS41 ~T0 @X0 0 e@129 ]
+"1707
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 1707: extern volatile __bit T0IE __attribute__((address(0x5D)));
+[v _T0IE `Vb ~T0 @X0 0 e@93 ]
+"1578
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 1578: extern volatile __bit GIE __attribute__((address(0x5F)));
+[v _GIE `Vb ~T0 @X0 0 e@95 ]
+"55 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 55: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"75
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 75: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"95
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 95: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"115
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 115: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"201
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 201: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"221
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 221: __asm("GPIO equ 05h");
+[; <" GPIO equ 05h ;# ">
+"309
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 309: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"329
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 329: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"407
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 407: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"455
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 455: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"462
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 462: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"482
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 482: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"502
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 502: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"567
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 567: __asm("CMCON equ 019h");
+[; <" CMCON equ 019h ;# ">
+"626
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 626: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"646
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 646: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"730
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 730: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"800
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 800: __asm("TRISIO equ 085h");
+[; <" TRISIO equ 085h ;# ">
+"850
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 850: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"898
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 898: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"932
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 932: __asm("OSCCAL equ 090h");
+[; <" OSCCAL equ 090h ;# ">
+"992
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 992: __asm("WPU equ 095h");
+[; <" WPU equ 095h ;# ">
+"1037
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 1037: __asm("IOC equ 096h");
+[; <" IOC equ 096h ;# ">
+"1042
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 1042: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"1211
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 1211: __asm("VRCON equ 099h");
+[; <" VRCON equ 099h ;# ">
+"1271
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 1271: __asm("EEDATA equ 09Ah");
+[; <" EEDATA equ 09Ah ;# ">
+"1276
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 1276: __asm("EEDAT equ 09Ah");
+[; <" EEDAT equ 09Ah ;# ">
+"1309
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 1309: __asm("EEADR equ 09Bh");
+[; <" EEADR equ 09Bh ;# ">
+"1329
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 1329: __asm("EECON1 equ 09Ch");
+[; <" EECON1 equ 09Ch ;# ">
+"1367
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 1367: __asm("EECON2 equ 09Dh");
+[; <" EECON2 equ 09Dh ;# ">
+"1387
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 1387: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"1407
+[; ;C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC10-12Fxxx_DFP/1.5.61/xc8\pic\include\proc\pic12f675.h: 1407: __asm("ANSEL equ 09Fh");
+[; <" ANSEL equ 09Fh ;# ">
+"5 PWM.c
+[; ;PWM.c: 5: unsigned char PWM = 0;
+[v _PWM `uc ~T0 @X0 1 e ]
+[i _PWM
+-> -> 0 `i `uc
+]
+"9
+[; ;PWM.c: 9: void InitPWM(void)
+[v _InitPWM `(v ~T0 @X0 1 ef ]
+"10
+[; ;PWM.c: 10: {
+{
+[e :U _InitPWM ]
+[f ]
+"12
+[; ;PWM.c: 12:     OPTION_REGbits.T0CS = 0;
+[e = . . _OPTION_REGbits 0 3 -> -> 0 `i `uc ]
+"13
+[; ;PWM.c: 13:     OPTION_REGbits.PSA = 0;
+[e = . . _OPTION_REGbits 0 1 -> -> 0 `i `uc ]
+"14
+[; ;PWM.c: 14:     OPTION_REGbits.PS2 = 0;
+[e = . . _OPTION_REGbits 1 2 -> -> 0 `i `uc ]
+"15
+[; ;PWM.c: 15:     OPTION_REGbits.PS1 = 1;
+[e = . . _OPTION_REGbits 1 1 -> -> 1 `i `uc ]
+"16
+[; ;PWM.c: 16:     OPTION_REGbits.PS0 = 0;
+[e = . . _OPTION_REGbits 1 0 -> -> 0 `i `uc ]
+"20
+[; ;PWM.c: 20:  T0IE = 1;
+[e = _T0IE -> -> 1 `i `b ]
+"21
+[; ;PWM.c: 21:  GIE = 1;
+[e = _GIE -> -> 1 `i `b ]
+"23
+[; ;PWM.c: 23: }
+[e :UE 81 ]
+}
